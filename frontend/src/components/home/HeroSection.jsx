@@ -37,13 +37,8 @@ const HeroSection = () => {
             <div className="relative rounded-2xl overflow-hidden shadow-lg">
               {/* Logo Overlay */}
               <div className="absolute top-4 left-4 z-10 flex items-center">
-                <img 
-                  src="https://santaslittlewieners.com/images/logo-dog.png" 
-                  alt="" 
-                  className="h-10 w-auto"
-                  onError={(e) => e.target.style.display = 'none'}
-                />
-                <div className="ml-2">
+                <span className="text-2xl mr-2">🎅🐕</span>
+                <div>
                   <span className="text-white font-serif text-xl font-bold italic drop-shadow-lg">Santa's Little Wieners</span>
                 </div>
               </div>
