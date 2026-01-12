@@ -30,14 +30,7 @@ const Header = () => {
               <span className="text-[#1B5E20] font-serif text-2xl lg:text-3xl font-bold italic">Santas Little</span>
               <span className="text-[#C62828] font-serif text-2xl lg:text-3xl font-bold italic -mt-1">Wieners</span>
             </div>
-            <img 
-              src="https://santaslittlewieners.com/images/logo-dog.png" 
-              alt="Dachshund with Santa hat" 
-              className="h-12 w-auto ml-2"
-              onError={(e) => {
-                e.target.style.display = 'none';
-              }}
-            />
+            <span className="ml-2 text-2xl">🐕</span>
           </Link>
 
           {/* Desktop Navigation */}
