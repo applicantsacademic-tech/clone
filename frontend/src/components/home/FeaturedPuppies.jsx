@@ -44,7 +44,7 @@ const FeaturedPuppies = () => {
                 {/* Rating Badge */}
                 <div className="absolute top-3 left-3 bg-[#C62828] text-white px-2 py-1 rounded-md text-sm font-medium flex items-center">
                   <Star className="w-3 h-3 fill-current mr-1" />
-                  {puppy.rating}
+                  {puppy.rating.toFixed(1)}
                 </div>
               </div>
 
