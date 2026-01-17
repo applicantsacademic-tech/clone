@@ -34,6 +34,7 @@ function App() {
           <Route path="/vaccinations" element={<VaccinationsPage />} />
           <Route path="/faq" element={<FAQPage />} />
           <Route path="/pickup-delivery" element={<PickupDeliveryPage />} />
+          <Route path="/admin" element={<AdminDashboard />} />
           {/* Catch-all route for unmatched paths */}
           <Route path="*" element={<HomePage />} />
         </Routes>
