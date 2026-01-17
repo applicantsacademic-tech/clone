@@ -15,6 +15,7 @@ import BasicCarePage from "./pages/BasicCarePage";
 import VaccinationsPage from "./pages/VaccinationsPage";
 import FAQPage from "./pages/FAQPage";
 import PickupDeliveryPage from "./pages/PickupDeliveryPage";
+import AdminDashboard from "./pages/AdminDashboard";
 
 function App() {
   return (
