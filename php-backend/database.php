@@ -6,10 +6,10 @@
 require_once __DIR__ . '/config.php';
 
 class Database {
-    private $host = DB_HOST;
-    private $db_name = DB_NAME;
-    private $username = DB_USER;
-    private $password = DB_PASS;
+    private $host = "localhost";
+    private $db_name =  santa_wieners;
+    private $username = username;
+    private $password = "";
     public $conn;
 
     public function getConnection() {
